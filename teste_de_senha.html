@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--pagina de verifica çao de senha -->
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../estilo.css">
+ 
+    <title>Teste  De Senha - Aprendendo a se Proteger</title>
+</head>
+
+<body>
+
+    <h1>Teste de Senha: Sua Senha é Forte?</h1>
+   
+    <div>
+  
+        <p>Uma senha forte é a sua primeira linha de defesa online. Use esta ferramenta para verificar o quão segura é a sua senha.</p>
+        
+        <h2>Dicas para Criar Senhas Fortes:</h2>
+  
+        <ul>
+ 
+            <li>Use pelo menos 12 caracteres.</li>
+  
+            <li>Misture letras maiúsculas e minúsculas.</li>
+  
+            <li>Inclua números e símbolos (!@#$%^&*).</li>
+    
+            <li>Não use informações pessoais (nome, data de nascimento).</li>
+ 
+            <li>Use uma senha diferente para cada conta.</li>
+    
+            <li>Considere usar um gerenciador de senhas.</li>
+   
+        </ul>
+
+        <h2>Para Crianças:</h2>
+     
+        <p>Pense em uma frase que você gosta e use as primeiras letras de cada palavra, adicione números e símbolos. Por exemplo: "Eu gosto de pizza com queijo!" pode virar "EgdpcQ!2024".</p>
+
+        <!-- Aqui será o campo de input e a lógica JavaScript para testar a senha -->
+        <label for="senha">Digite sua senha:</label><br>
+
+        <input type="password" id="senha" oninput="verificarForca()">
+
+        <p id="forca"></p>
+    </div>
+    
+    <a href="../tela_principal.html"><button>Voltar para o Menu Principal</button></a>
+
+    <script src="../script2.js"></script>
+
+</body>
+
+</html>

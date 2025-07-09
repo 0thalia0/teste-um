@@ -1,0 +1,147 @@
+body{
+
+    background: rgb(215, 189, 228);
+
+    text-align: center;
+
+    font-family: arial;
+
+    padding: 45px;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+h1{
+
+    color:blue;
+
+    margin-bottom: 20px;
+
+}
+
+div{
+    background-color: rgba(155, 93, 236, 0.9);
+
+    padding: 30px; 
+
+    border-radius: 10px;
+
+    box-shadow:  24px 8px rgba(0, 0, 0, 0.1);
+    
+    margin-bottom: 20px;
+
+    max-width: 600px;
+
+    width: 90%;
+
+}
+
+button{
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: rgb(143, 230, 143);
+
+    color: white;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+button:hover{
+
+    background: rgb(139, 139, 189);
+
+}
+@media (max-width: 768px) {
+
+    body {
+
+        padding: 10px;
+    }
+
+    div {
+
+        padding: 20px;
+    }
+
+    button {
+
+        width: calc(100% - 20px); 
+
+        display: block;
+
+    }
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#forca {
+
+    font-weight: bold;
+
+    margin-top: 10px;
+
+  }
+
+  .menu-buttons {
+
+    display: flex; 
+
+    flex-wrap: wrap; 
+
+    justify-content: center;
+
+    gap: 20px; 
+
+    margin-top: 20px; 
+
+}
+
+/* aqui esta o estilo dos botao principais*/
+.menu-buttons a {
+
+    flex: 1 1 auto; 
+
+    min-width: 180px; 
+
+    max-width: 250px;
+
+}
+
+.menu-buttons button {
+
+    width: 100%; 
+
+    height: 80px; 
+
+    font-size: 18px;
+
+    background: #6A5ACD; 
+}
+
+.menu-buttons button:hover {
+
+    background: #483D8B;
+
+}
+
